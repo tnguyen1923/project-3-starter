@@ -14,8 +14,8 @@ run_test: cuckoo
 
 headers: rubrictest.hpp
 
-cuckoo: headers cuckoo.cxx
-	${CXX} cuckoo.cxx -o cuckoo
+cuckoo: headers cuckoo.cpp
+	${CXX} cuckoo.cpp -o cuckoo
 
 clean:
 	rm -f cuckoo
